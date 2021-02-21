@@ -1,0 +1,7 @@
+Andy Warhol Bridge, also known as the Seventh Street Bridge, spans the Allegheny River in Downtown Pittsburgh, Pennsylvania and is the only bridge in the United States named for a visual artist. It was opened at a cost of $1.5 million on June 17, 1926 in a ceremony attended by 2,000.
+
+Never leave sensitive information in git history. Never commit in your version control any credentials, keys, passwords, etc., because all that information can be retrieved later. Never say never.
+
+So, good job, here is your flag: flag{6Xyv0HaiuuNZVnmaWYCIa3ecQbIYXREajAUO}
+
+Source: [Wikipedia]

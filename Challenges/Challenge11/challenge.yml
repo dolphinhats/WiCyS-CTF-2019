@@ -1,0 +1,21 @@
+name: Da Bug [<code>PYTHON</code>]
+author: author
+category: Week 1
+description: <Team IP>:7001
+value: 10
+type: standard
+flags:
+- flag{N15WEozXG9SXihtDxctqwaLZe30mRt8TBQ9L}
+hints:
+- content: "\u201CDebug\u201D functionality is left in production. Debug information\
+    \ can potentially reveal sensitive information, such as usernames, plugin names,\
+    \ full paths to config files, software versions, etc., and provide ways to interact\
+    \ with the remote system, bypassing normal user workflow. In this challenge, you\
+    \ can request debug information, using two available commands. One of them lists\
+    \ the current directory and another - prints the file on the page."
+  cost: 1
+tags:
+- python
+files:
+- ./challenge11.py
+state: hidden

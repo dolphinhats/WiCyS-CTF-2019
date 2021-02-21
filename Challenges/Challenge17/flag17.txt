@@ -1,0 +1,5 @@
+The Liberty Bridge, completed in 1928, connects downtown Pittsburgh, Pennsylvania, to the Liberty Tunnels and the South Hills neighborhoods beyond. It crosses the Monongahela River and intersects Interstate 579 (the Crosstown Boulevard) at its northern terminus.
+
+Revealing sensitive data by making logs publicly available. Never do this in production, pretty dangerous information to give out to everyone.
+
+Here is your flag: flag{AB0sZ05KlhZs0CW8M9SJcoXvN4FB7t1NgRSd}

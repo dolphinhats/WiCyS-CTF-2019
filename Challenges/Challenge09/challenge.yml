@@ -1,0 +1,26 @@
+name: Juggling 1 [<code>PHP</code>]
+author: author
+category: Week 1
+description: <Team IP>:8009
+value: 10
+type: standard
+flags:
+- flag{nbvbTG3w4d8DR14Kybna5zzR6d2L9qcAPtHK}
+hints:
+- content: "When you use == to compare values in PHP it forces the interpreter to\
+    \ \"convert\" one of the values such that the comparison will make sense.This\
+    \ makes it easy for programmers because they don\u2019t have to cast to a different\
+    \ type and can simply ask the language to determine what is best.If you used ===\
+    \ then PHP would also make sure that the values are of the same type before comparing\
+    \ so \u201C 1\u201D =/= True anymore.Beginners to PHP and other type juggling\
+    \ languages may be unaware of this issue or the most secure way of approaching\
+    \ the problem of comparison when types are not specified.Whoo hoo PHP! https://secure.php.net/manual/en/language.operators.comparison.php\
+    \ https://secure.php.net/manual/en/language.types.type-juggling.php"
+  cost: 1
+- content: 5 == 05 is true
+  cost: 1
+tags:
+- php
+files:
+- ./index.php
+state: hidden

@@ -1,0 +1,20 @@
+name: Longhorn [<code>PYTHON</code>]
+author: author
+category: Week 1
+description: <Team IP>:7002
+value: 10
+type: standard
+flags:
+- flag{N8C7JZ6xRWQyTW5tkaF1PXWLGDgVNPvGFNVP}
+hints:
+- content: "GET parameters\u2019 range validation. Not validating user input may cause\
+    \ many security issues. In this case, the user can request more information from\
+    \ the server than the user is allowed to view, using a GET parameter \"lines\"\
+    . One of the most striking examples of such vulnerabilities is a heartbleed vulnerability\
+    \ from 2014."
+  cost: 1
+tags:
+- python
+files:
+- ./challenge12.py
+state: hidden

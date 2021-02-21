@@ -1,0 +1,20 @@
+name: Real ID 2 [<code>PHP</code>]
+author: author
+category: Week 4
+description: <Team IP>:8010
+value: 20
+type: standard
+flags:
+- flag{XqeaCrdblEzbAQ0GObAEo6TpdDd4MYkrMDdJ}
+hints:
+- content: This one is similar to Real ID 1 except the programmer decided to hide
+    the real id values behind some sort of hash... i wonder what it could be...
+  cost: 1
+- content: https://passwordsgenerator.net/md5-hash-generator/
+  cost: 1
+tags:
+- web
+files:
+- ./files.php
+- ./index.php
+state: hidden

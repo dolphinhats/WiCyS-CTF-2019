@@ -1,7 +1,0 @@
-The Smithfield Street Bridge is a lenticular truss bridge crossing the Monongahela River in Pittsburgh, Pennsylvania, USA.
-
-The bridge was designed by Gustav Lindenthal, the engineer who later designed the Hell Gate Bridge in New York City. The Smithfield Street Bridge was built between 1881 and 1883, opening for traffic on March 19, 1883. It was widened in 1889 and widened again in 1911. The bridge has been designated a National Historic Civic Engineering Landmark, a National Historic Landmark, and has a Historic Landmark Plaque from the Pittsburgh History and Landmarks Foundation.
-
-This challenge is like the AES initialization vector in 7-z archive software that was not correctly generated and allowed attackers to easily guess that vector: https://threadreaderapp.com/thread/1087848040583626753.html
-
-So, here is your flag: {73F58888-FBEA-4B8A-8060-2677C34EFC86}

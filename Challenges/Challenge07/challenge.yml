@@ -1,0 +1,20 @@
+name: Trojan Candy 2 [<code>PHP</code>]
+author: author
+category: Week 3
+description: <Team IP>:8007
+value: 30
+type: standard
+flags:
+- flag{kASAOsE1nYEZ9GlGHpYaax7LBejYWo6oScBV}
+hints:
+- This challenge improves on the previous variation by checking that the file is an
+  image...
+- https://github.com/mathiasbynens/small/blob/master/png-transparent.png
+- Check out https://hexed.it/ You can open an image, inject a php code in it, and
+  then see what happens.
+tags:
+- php
+files:
+- ./index.php
+- ./gallery.php
+state: hidden

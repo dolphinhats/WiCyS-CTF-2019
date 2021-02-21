@@ -1,0 +1,7 @@
+The Glenwood Bridge is a cantilever bridge in Pittsburgh, Pennsylvania, which carries Pennsylvania Route 885 over the Monongahela River. It started construction on June 3, 1958 and was completed in 1966 to replace an old decayed unsafe iron bridge built in 1894 which carried Pittsburgh Railways streetcar tracks and vehicle traffic on a wooden deck.
+
+Configuration array overflow. The user input is validated but the length of it is not. So, if the user enters a string that is long, it will overide the existing data corresponding to the administrator's credentials.
+
+So, good job, here is your flag: flag{3ZZ67FTWSKaVgdv5E5hzAhJ6C8eDlwY5l057}
+
+Source: [Wikipedia]

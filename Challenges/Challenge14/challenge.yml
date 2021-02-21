@@ -1,0 +1,23 @@
+name: Rocky Veggie [<code>JAVA</code>]
+author: author
+category: Week 2
+description: <Team IP>:7004
+value: 30
+type: standard
+flags:
+- flag{ZI6Yl1O20sswDteaQlZO14tpqgxAuoJkB6di}
+hints:
+- content: Username truncation and trimming on save operation. This bug has previously
+    been seen in database management systems. When the database saves the username,
+    it truncates and trims the username, which causes the override of the previously
+    created user if the usernames match.So, you may need to append something to the
+    "admin" user, but this time just a whitespace will not work because the program
+    is smarter -- it trims at a certain number of characters. What if the user is
+    trying to register an "admin" that has a lot of whitespaces and then something
+    else?
+  cost: 1
+tags:
+- java
+files:
+- ./Challenge14.java
+state: hidden

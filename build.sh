@@ -14,5 +14,7 @@ cd ctfd
 
 head -c 64 /dev/urandom > $secretKeyFile
 
+cd ..
+
 docker-compose up
 

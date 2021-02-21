@@ -1,0 +1,22 @@
+name: Pong [<code>PHP</code>]
+author: author
+category: Week 3
+description: <Team IP>:8002
+value: 30
+type: standard
+flags:
+- flag{S0d7zWV7SqJWzOqQ5gvuPVP2VT2ZlhVOen8d}
+hints:
+- content: Check the source for any debug or hidden code ;)
+  cost: 1
+- content: Try pinging a domain that doesn't exist... Notice how all stderr is redirected
+    to stdout and then to the screen. Use that fact in conjunction with >
+  cost: 1
+- content: '"<?php phpinfo() ?>" > a.php  remove all newlines'
+  cost: 1
+
+tags:
+- php
+files:
+- ./index.php
+state: hidden

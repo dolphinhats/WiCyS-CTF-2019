@@ -1,7 +1,0 @@
-The Panhandle Bridge (officially the Monongahela River Bridge) carries two rail lines of the Port Authority "T" line across the Monongahela River in Pittsburgh, Pennsylvania. The name comes from Pennsylvania Railroad subsidiary Pittsburgh, Cincinnati, Chicago and St. Louis Railroad, also known as the Panhandle Route, which operated over the bridge.
-
-Leaving default settings in production is not good, not good at all.
-
-Also, haveibeenpwned.com allows you to not only check for the leaked passwords and emails, but also to provide API for testing user passwords prior to their registration. Good stuff for your future website.
-
-So, here is your flag: {DF40C21D-8D0F-4A20-BC4C-AE4F70F80B3B}

@@ -1,0 +1,18 @@
+name: Trojan Candy 1 [<code>PHP</code>]
+author: author
+category: Week 1
+description: <Team IP>:8006
+value: 10
+type: standard
+flags:
+- 67AD87D0-C2F9-443F-80D9-7A62D3C2FED9
+hints:
+- You need to see what is in the current and previous directories... now what kind
+  of file would allow you to do that?
+- echo print_r(scandir('.'),true);
+tags:
+- php
+files:
+- ./index.php
+- ./gallery.php
+state: hidden

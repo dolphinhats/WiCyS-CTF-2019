@@ -1,0 +1,21 @@
+name: Sloth [<code>JAVA</code>]
+author: author
+category: Week 1
+description: <Team IP>:7006
+value: 10
+type: standard
+flags:
+- flag{77hzJZU7wmzvSRiAYhSLpQId3PDRyIPmnoim}
+hints:
+- content: "Leaving defaults in production. When admins set up software, they often\
+    \ do not go through changing all default configuration settings including administrator\
+    \ password, cryptographic keys, initialization vectors, etc. The most known and\
+    \ dangerous vulnerability of this class is \u201Cleaving default credentials\u201D\
+    \ in the Internet-connected devices like routers.This hash is easily breakable\
+    \ and searchable."
+  cost: 1
+tags:
+- java
+files:
+- ./Challenge16.java
+state: hidden

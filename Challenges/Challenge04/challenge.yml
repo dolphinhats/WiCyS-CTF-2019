@@ -1,0 +1,23 @@
+name: Heartattack [<code>PHP/JS</code>]
+author: author
+category: Week 3
+description: <Team IP>:8004
+value: 20
+type: standard
+flags:
+- flag{XWneUJLoCM0aINhyq1SIe3GcEf4DfPBosqgB}
+hints:
+- content: Check the source for items for which the display style is 'none' ;)
+  cost: 1
+- content: https://www.us-cert.gov/ncas/alerts/TA14-098A Sends the buffer size as
+    well as the buffer. Server trusts the buffer size when retrieving the string from
+    memory. The size calculation should be done on the server.Check what data is sent
+    and see if you can send the same data but with different parameters to request
+    more memory.
+  cost: 1
+tags:
+- php
+files:
+- ./index.php
+- ./heartbeat.php
+state: hidden

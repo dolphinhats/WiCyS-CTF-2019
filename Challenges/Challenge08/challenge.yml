@@ -1,0 +1,19 @@
+name: Real ID 1 [<code>PHP</code>]
+author: author
+category: Week 1
+description: <Team IP>:8008
+value: 10
+type: standard
+flags:
+- flag{jXDkeFQhJlRea2jxfVGmmuptP5HEYLxaGEOj}
+hints:
+- content: This challenge allows users to download files as long as they have the
+    proper permission to do so... It's 21st century and protecting your IDs is important!
+    https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.md
+  cost: 1
+tags:
+- php
+files:
+- ./index.php
+- ./files.php
+state: hidden

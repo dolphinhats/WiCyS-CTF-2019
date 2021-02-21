@@ -1,0 +1,17 @@
+name: Client Destroyer [<code>PHP/JS<code>]
+author: author
+category: Week 3
+description: <Team IP>:8007
+value: 10
+type: standard
+flags:
+- flag{t7aNwrvLgrccdayzX2JPLmn8kU1JdwgLzIC5}
+hints:
+- content: notice that that the submission of the form depends on the return value
+    from the validate function
+  cost: 1
+tags:
+- php, js
+files:
+- ./index.php
+state: hidden

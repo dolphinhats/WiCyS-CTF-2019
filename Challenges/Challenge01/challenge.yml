@@ -1,0 +1,26 @@
+name: Ping me [<code>PHP</code>]
+author: author
+category: Week 2
+description: <Team IP>:8001
+value: 10
+type: standard
+flags:
+- flag{jiaIwnqsZgrrES9MR9uIAjuCuQLysGp9xNtX}
+hints:
+- content: User input must be sanitized before being used in systems such as a database
+    or syscall. https://www.owasp.org/index.php/Command_Injection
+  cost: 1
+- content: Try inserting something like ;ls
+  cost: 1
+- content: The programmer prevented reading of the flag file directly from Apache...
+    Try to use a command like cat to read it...
+  cost: 1
+- content: So cat didn't work huh? There are plenty of other commands that you can
+    use to bypass this restriction.... try head, tail, or cp
+  cost: 1
+tags:
+- php
+files:
+- ./code.php
+- ./index.php
+state: hidden

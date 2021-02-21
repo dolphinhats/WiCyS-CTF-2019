@@ -1,0 +1,2 @@
+* * * * * rm -rfv /var/www/html/tmp/*
+# Don't remove the empty line at the end of this file. It is required to run the cron job

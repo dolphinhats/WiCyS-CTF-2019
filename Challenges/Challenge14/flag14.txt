@@ -1,0 +1,5 @@
+The Birmingham Bridge (known during construction as the Brady Street Bridge) is a bowstring arch bridge in Pittsburgh, Pennsylvania, which crosses over the Monongahela River. The bridge connects East Carson Street on the South Side with Fifth and Forbes Avenues going to Uptown, Oakland, and the Hill District.
+
+This bug has previously been seen in database management systems that truncate usernames and then finish them with trimming, which may cause the override of the previously created users. Here is your flag: flag{ZI6Yl1O20sswDteaQlZO14tpqgxAuoJkB6di}
+
+Source: [Wikipedia]

@@ -1,0 +1,24 @@
+name: Tricky Encoder [<code>PHP</code>]
+author: author
+category: Week 2
+description: <Team IP>:8003
+value: 10
+type: standard
+flags:
+- flag{cezviH4by8RSrYAe0KcLiKnB1FWYBB85xrot}
+hints:
+- content: First find out how the value gets updated and how it is tracked in your
+    browser
+  cost: 1
+- content: "https://www.owasp.org/index.php/Top_10_2007-Insecure_Cryptographic_Storage\
+    \ Uses home grown \u201Cencryption\u201D/encoding scheme to store the points value.\
+    \ The programmer should have instead kept the score on the server side or use\
+    \ a rotating key. Maybe it is encoded in something other than base 10... or base\
+    \ 2"
+  cost: 1
+tags:
+- php
+files:
+- ./functions.php
+- ./index.php
+state: hidden

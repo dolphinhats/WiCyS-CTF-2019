@@ -1,7 +1,0 @@
-Rachel Carson Bridge, also known as the Ninth Street Bridge, spans the Allegheny River in Downtown Pittsburgh, Pennsylvania in the United States. The total length is 840 feet (260 m) including the 410-foot (120 m) main span and two 215-foot (66 m) side spans, or 995 feet (303 m) including the approaches. The total width of the deck is 62 feet (19 m), including the 38-foot (12 m) roadway plus two 10-foot (3.0 m) sidewalks outside the compressive plate girder. Whereas the roadway formerly carried two vehicle lanes and two streetcar tracks, it now carries four wide vehicle lanes.
-
-User input validation must be the first thought that comes to mind when you process user's input anywhere in your code. HomeMatic automation system had a vulnerability in 2018 that allows arbitrary file overwrite (https://atomic111.github.io/article/homematic-ccu2-filewrite) via an easily-crafted JSON API request.
-
-So, good job, here is your flag: {AA8DD008-3053-4E57-A3CF-54202C8BC7AF}
-
-Source: [Wikipedia]

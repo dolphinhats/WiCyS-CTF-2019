@@ -1,0 +1,19 @@
+name: Firewood [<code>JAVA</code>]
+author: author
+category: Week 3
+description: <Team IP>:7007
+value: 20
+type: standard
+flags:
+- flag{AB0sZ05KlhZs0CW8M9SJcoXvN4FB7t1NgRSd}
+hints:
+- content: Revealing sensitive data through logs. Surprisingly, logs can reveal such
+    information  as usernames, common software issues, software versions, intrusion
+    detection systems, etc. Check out the log file more thoroughly, you may find your
+    answer.
+  cost: 1
+tags:
+- java
+files:
+- ./Challenge17.java
+state: hidden

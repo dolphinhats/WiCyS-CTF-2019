@@ -32,8 +32,8 @@ services:
         internal:
 
   db:
-    image: mariadb:10.4
-    # restart: always
+    image: mariadb:10.4.12
+    restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=ctfd
       - MYSQL_USER=ctfd
@@ -47,159 +47,12 @@ services:
 
   cache:
     image: redis:4
-    # restart: always
+    restart: always
     volumes:
         - "./ctfd/.data/redis:/data"
     networks:
         internal:
     
-  # mainpage:
-  #   build: .
-  #   # restart: always
-  #   image: mainpage
-  #   ports:
-  #     - "89:80"
-
-  challenge01:
-    build: ./Challenge01
-    # restart: always
-    image: challenge01
-    ports:
-    - "8001:80"
-
-  challenge02:
-    build: ./Challenge02
-    # restart: always
-    image: challenge02
-    ports:
-    - "8002:80"
-
-  challenge03:
-    build: ./Challenge03
-    # restart: always
-    image: challenge03
-    ports:
-    - "8003:80"
-
-  challenge04:
-    build: ./Challenge04
-    # restart: always
-    image: challenge04
-    ports:
-    - "8004:80"
-
-  challenge05:
-    build: ./Challenge05
-    # restart: always
-    image: challenge05
-    ports:
-    - "8005:80"
-
-  challenge06:
-    build: ./Challenge06
-    # restart: always
-    image: challenge06
-    ports:
-    - "8006:80"
-
-  challenge07:
-    build: ./Challenge07
-    # restart: always
-    image: challenge07
-    ports:
-    - "8007:80"
-
-  challenge08:
-    build: ./Challenge08
-    # restart: always
-    image: challenge08
-    ports:
-    - "8008:80"
-
-  challenge09:
-    build: ./Challenge09
-    # restart: always
-    image: challenge09
-    ports:
-    - "8009:80"
-
-  challenge10:
-    build: ./Challenge10
-    # restart: always
-    image: challenge10
-    ports:
-    - "8010:80"
-
-  challenge11:
-    build: ./Challenge11
-    # restart: always
-    image: challenge11
-    ports:
-      - "7001:7001"
-
-  challenge12:
-    build: ./Challenge12
-    # restart: always
-    image: challenge12
-    ports:
-      - "7002:7002"
-
-  challenge13:
-    build: ./Challenge13
-    # restart: always
-    image: challenge13
-    ports:
-      - "7003:7003"
-
-  challenge14:
-    build: ./Challenge14
-    # restart: always
-    image: challenge14
-    ports:
-      - "7004:7004"
-
-  challenge15:
-    build: ./Challenge15
-    # restart: always
-    image: challenge15
-    ports:
-      - "7005:7005"
-
-  challenge16:
-    build: ./Challenge16
-    # restart: always
-    image: challenge16
-    ports:
-      - "7006:7006"
-
-  challenge17:
-    build: ./Challenge17
-    # restart: always
-    image: challenge17
-    ports:
-      - "7007:7007"
-
-  challenge18:
-    build: ./Challenge18
-    # restart: always
-    image: challenge18
-    ports:
-      - "7008:7008"
-
-  challenge19:
-    build: ./Challenge19
-    # restart: always
-    image: challenge19
-    ports:
-      - "7009:7009"
-
-  challenge20:
-    build: ./Challenge20
-    # restart: always
-    image: challenge20
-    ports:
-      - "7010:7010"
-
 networks:
     default:
     internal:

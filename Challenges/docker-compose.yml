@@ -1,0 +1,243 @@
+version: '3'
+
+services:
+  challenge01:
+    build: ./Challenge01
+    restart: always
+    image: challenge01
+    ports:
+    - "8001:8001"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:8001 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge02:
+    build: ./Challenge02
+    restart: always
+    image: challenge02
+    ports:
+    - "8002:8002"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:8002 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge03:
+    build: ./Challenge03
+    restart: always
+    image: challenge03
+    ports:
+    - "8003:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge04:
+    build: ./Challenge04
+    restart: always
+    image: challenge04
+    ports:
+    - "8004:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge05:
+    build: ./Challenge05
+    restart: always
+    image: challenge05
+    ports:
+    - "8005:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+
+  challenge08:
+    build: ./Challenge08
+    restart: always
+    image: challenge08
+    ports:
+    - "8008:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge09:
+    build: ./Challenge09
+    restart: always
+    image: challenge09
+    ports:
+    - "8009:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge10:
+    build: ./Challenge10
+    restart: always
+    image: challenge10
+    ports:
+    - "8010:80"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:80 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge11:
+    build: ./Challenge11
+    restart: always
+    image: challenge11
+    ports:
+      - "7001:7001"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7001 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge12:
+    build: ./Challenge12
+    restart: always
+    image: challenge12
+    ports:
+      - "7002:7002"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7002 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge13:
+    build: ./Challenge13
+    restart: always
+    image: challenge13
+    ports:
+      - "7003:7003"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7003 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge14:
+    build: ./Challenge14
+    restart: always
+    image: challenge14
+    ports:
+      - "7004:7004"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7004 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge15:
+    build: ./Challenge15
+    restart: always
+    image: challenge15
+    ports:
+      - "7005:7005"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7005 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge16:
+    build: ./Challenge16
+    restart: always
+    image: challenge16
+    ports:
+      - "7006:7006"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7006 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge17:
+    build: ./Challenge17
+    restart: always
+    image: challenge17
+    ports:
+      - "7007:7007"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7007 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge18:
+    build: ./Challenge18
+    restart: always
+    image: challenge18
+    ports:
+      - "7008:7008"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7008 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge19:
+    build: ./Challenge19
+    restart: always
+    image: challenge19
+    ports:
+      - "7009:7009"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7009 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge20:
+    build: ./Challenge20
+    restart: always
+    image: challenge20
+    ports:
+      - "7010:7010"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:7010 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge21:
+    build:  ./Challenge21
+    restart: always
+    image: challenge21
+    ports:
+      - "8006:8006"
+    healthcheck:
+      test: curl --fail http://127.0.0.1:8006 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2
+
+  challenge22:
+    build:  ./Challenge22
+    restart: always
+    image: challenge22
+    ports:
+      - "8007:8007"
+    healthcheck:
+      test: curl --fail -s http://127.0.0.1:8007 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 2

@@ -1,0 +1,21 @@
+name: Git Gud [<code>PYTHON</code>]
+author: author
+category: Week 4
+description: <Team IP>:7009
+value: 30
+type: standard
+flags:
+- flag{6Xyv0HaiuuNZVnmaWYCIa3ecQbIYXREajAUO}
+hints:
+- content: Never leave sensitive information in git history. Never commit in your
+    version control any credentials, keys, passwords, etc., because all that information
+    can be retrieved later from the logs of git. There are tools to do this automatically
+    (like https://github.com/dxa4481/truffleHog and https://github.com/michenriksen/gitrob).In
+    this challenge, you need to find a way how to view the git log. Then, figure out
+    how to checkout a specific commit and see what is inside of it.
+  cost: 1
+tags:
+- python
+files:
+- ./challenge19.py
+state: hidden

@@ -1,0 +1,19 @@
+name: Password Guessing [<code>C++</code>]
+author: author
+category: Week 4
+description: <Team IP>:8006
+value: 10
+type: standard
+flags:
+- flag{gdW1vae4jGeo6RRbvvLGY1m9WCy6VqO0fkem}
+hints:
+- content: Notice that the pass variable is allocated only 10 bits of memory
+  cost: 1
+- content: The strcpy is a a very dangerous method to use because it allows what vulnerability?(may the google be with you)
+  cost: 1
+tags:
+- php, c++
+files:
+- ./main.cpp
+- ./index.php
+state: hidden

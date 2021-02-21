@@ -1,0 +1,20 @@
+name: Overwatch [<code>PYTHON</code>]
+author: author
+category: Week 3
+description: <Team IP>:7010
+value: 30
+type: standard
+flags:
+- flag{cznpIzSIRkk5YC4Dol7UYCSCgzShQvtUNnMe}
+hints:
+- content: Tricky linux command injection that allows to read arbitrary files. User
+    input validation should be the first thought that comes to mind when any user
+    input is created.Notice that LICENSE.md is available to view. So, what if you
+    overwrite it with an output of the injected command? In Linux, you can use $(here_goes_command)
+    to echo the output of a command.
+  cost: 1
+tags:
+- python
+files:
+- ./challenge20.py
+state: hidden

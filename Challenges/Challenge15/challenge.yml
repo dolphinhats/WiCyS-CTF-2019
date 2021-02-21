@@ -1,0 +1,21 @@
+name: Thunderstruck [<code>JAVA</code>]
+author: author
+category: Week 4
+description: <Team IP>:7005
+value: 30
+type: standard
+flags:
+- flag{Cnc7YlYnmxrG14hMUoffpGA3sa4pUG25XNjE}
+hints:
+- content: Predictable pseudo-random number generation. Pseudo-random number generation
+    is often used in cryptography. If the attacker can predict what seed number was
+    used to generate a pseudo-random number, then the attacker can end up with calculating
+    the keys necessary to decrypt the data.In this case, your goal is to generate
+    every possible outcome based on the password generator (which is about 20 different
+    outcomes) and try out every one of them.
+  cost: 1
+tags:
+- java
+files:
+- ./Challenge15.java
+state: hidden

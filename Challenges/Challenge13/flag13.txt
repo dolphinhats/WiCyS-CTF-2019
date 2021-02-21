@@ -1,0 +1,5 @@
+The Hot Metal Bridge is a truss bridge in Pittsburgh, Pennsylvania, that crosses the Monongahela River. The bridge consists of two parallel spans on a single set of piers: the former Monongahela Connecting Railroad Bridge, built in 1887, on the upstream side and the former Hot Metal Bridge, built in 1900, on the downstream side.
+
+This bug has previously been seen in database management systems that truncate usernames and then finish them with trimming, which may cause the override of the previously created users. Here is your flag: flag{jJEkYqoR4ZJZZ96VxLEDgyAZC06K9U9KEQIA}
+
+Source: [Wikipedia]
